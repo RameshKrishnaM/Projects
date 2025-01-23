@@ -1,0 +1,15 @@
+
+#http client config
+MaxIdleConns    = 25
+MaxIdleConnsPerHost =   5
+# Idle Connection Time Out (in seconds)
+IdleConnTimeout = 10
+# Connection Time Out (in seconds)
+Timeout = 60
+
+
+#Db config
+DbMaxIdleConns=5
+DbMaxOpenConns=100
+# Connection Time Out (in seconds)
+DbConMaxIdleTime = 5

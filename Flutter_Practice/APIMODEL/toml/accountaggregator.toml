@@ -1,0 +1,114 @@
+
+ConsentStatus ="INITIATE"
+
+#Rejection Status
+
+ACTIVE="0"
+REJECTED="1"
+ConsentError="2"
+RedirectError="3"
+
+
+ProofType="401"
+PartyIdentifierType="MOBILE"
+HoldingType="SINGLE"
+
+#Rejection Comments
+
+ActiveComments= "ACTIVE"
+RejectedComments= "REJECTED"
+NotFoundComments= "NOT FOUND"
+InvalidRequestComments= "INVALID REQUEST"
+CompletedComments="COMPLETED"
+
+#HeaderKey Name
+
+OrganisationID="organisationId"
+AppIdentifier="appIdentifier"
+ClientID="client_id"
+ClientSecretName="client_secret"
+
+Content_Type="Content-Type"
+Content_value="application/json"
+
+#Statement Duration
+
+SixMonth="Y"
+
+AggregatorFlag="Y"
+
+# account aggregator UAT Credentials
+
+# ======================================================================================= 
+#                                     UAT
+# ======================================================================================= 
+
+
+#RequestConsentUrl = "https://flattrade-uat.moneyone.in/v2/requestconsent"
+#EncryptUrl= "https://flattrade-uat.moneyone.in/webRedirection/getEncryptedUrl"
+#DecryptUrl="https://flattrade-uat.moneyone.in/webRedirection/decryptUrl"
+RedirectUrl="http://localhost:8080/Demat-Details?"
+#GetConsentUrl="https://flattrade-uat.moneyone.in/v2/getconsentslist"
+#GetListFipID="https://flattrade-uat.moneyone.in/list/fips"
+#GetPdfDownload="https://flattrade-uat.moneyone.in/getallfidataPdf"
+#GetAllLatestFiData="https://flattrade-uat.moneyone.in/getalllatestfidata"
+#Secret="FlattradeST823"
+#
+#ClientId="2a45ea45e862fbd82b5adc6491d13fb39f8c5de1"
+#ClientSecret="bcb6ba5b476fad8bb5ebdf54da13d916968daf67"
+#ProductID="TEST1"
+#OrganisationId="flattrade-fiu-uat"
+#ApplicationId="com.flattrade.in"
+#
+#AggregatorFlag="Y"
+
+# ======================================================================================= 
+#                                   production
+# ======================================================================================= 
+
+
+#Account Aggregator PROD TOML Data
+
+
+
+
+RequestConsentUrl = "https://flattrade.moneyone.in/v2/requestconsent"
+EncryptUrl= "https://flattrade.moneyone.in/webRedirection/getEncryptedUrl"
+DecryptUrl="https://flattrade.moneyone.in/webRedirection/decryptUrl"
+# RedirectUrl="https://instakyc.flattrade.in/Demat-Details?"
+GetConsentUrl="https://flattrade.moneyone.in/v2/getconsentslist"
+GetListFipID="https://flattrade.moneyone.in/list/fips"
+GetPdfDownload="https://flattrade.moneyone.in/getallfidataPdf"
+GetAllLatestFiData="https://flattrade.moneyone.in/getalllatestfidata"
+
+
+ClientId="d36e8d0fe86c30ddf2d2d90e84a5f7bc9760df09"
+ClientSecret="a33b5be2ca5e76b228922d816044b60727287fb9"
+ProductID="FLATTRADE"
+OrganisationId="flattrade-fiu"
+ApplicationId="com.flattrade.in"
+
+
+
+#Account Aggregator Service URL
+
+ServiceBaseURL="http://onemoneysrv.flattrade.in"
+SrvConsentReq="/AAconsentRequest"
+SrvConsentStatus="/AAconsentStatus"
+SrvConsentFetch="/getAAStatement"
+Source="InstaKYC"
+Provider="AA-onemoney"
+
+#Account Aggregator FileSave Data
+
+PDFFileKey="AA_PDF"
+PDFFileType="application/pdf"
+JSONFileKey="AA_JSON"
+Process="Ekyc_proof_upload"
+
+
+
+
+
+
+	

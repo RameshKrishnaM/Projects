@@ -1,0 +1,72 @@
+GetPanStatus_URL = "http://panstatussvc.flattrade.in:28011/PanStatusVerification"
+
+#GetPanStatus_URL = "http://192.168.2.5:28011/PanStatusVerification"
+
+GetNewPanStatus_URL = "http://panstatussvc.flattrade.in:28011/panverification"
+
+GetNewPanStatusCheck_URL = "http://panstatussvc.flattrade.in:28011/getpanstatus"
+
+
+
+#============================================
+#                PAN Status
+#============================================
+Pan_F = "The PAN you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>FAKE</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_X = "The PAN you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>DEACTIVATED</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_D = "The PAN you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>DELETED</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_N = "The PAN you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Invalid</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EA = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Amalgamation</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EC = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Acquistion</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_ED = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Death</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EI = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Dissolution</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EL = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Liquidated</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EM = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Merger</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EP = "The PAN Number you have entered is mentioned as  <span style='color:#F44336;font-weight:bold;'>Partition</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_ES = "The PAN Number you have entered is mentioned as  <span style='color:#F44336;font-weight:bold;'>Split</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_EU = "The PAN Number you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Under Liquidation</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+Pan_I = "The PAN you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Inoperative</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+#============================================
+#                 Aadhar Status
+#============================================
+Aadhar_R = "<span style='color:#F44336;font-weight:bold;'>Aadhar & PAN is not linked</span> for the PAN you have entered. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to link it or Re-enter your PAN."
+
+Aadhar_NA = "The PAN you have entered is mentioned as <span style='color:#F44336;font-weight:bold;'>Non- Individual PAN</span> in the PAN / ITD Database. Please visit the <a target='_blank' href='https://www.incometax.gov.in/'>ITD website</a> to verify or Re-enter your PAN"
+
+
+#============================================
+#            Name and Dob Status
+#============================================
+NAME_ERR = "The <span style='color:#F44336;font-weight:bold;'>Name</span> you have entered does not match with PAN / ITD Database, Please re-enter your Name as printed on your PAN Card."
+
+DOB_ERR = "The <span style='color:#F44336;font-weight:bold;'>Date of Birth</span> you have entered does not match with PAN / ITD Database, Please re-enter your Date of Birth as printed on your PAN Card."
+
+NAMENDDOB_ERR = "The <span style='color:#F44336;font-weight:bold;'>Name and Date of Birth</span> you have entered does not match with PAN / ITD Database, Please re-enter your Name and Date of Birth as printed on your PAN Card."
+
+MINORDOB_ERR = "As the provided <span style='color:#F44336;font-weight:bold;'>Date of Birth</span> indicates a minor, we are unable to proceed with the account creation for a minor account."
+
+
+#====================================================testing
+#PanXmlName = "PanXml"
+#AadharXMLName = "AadharXml"
+#KraName = "KRAName"
+#GivenName = "aaaaa"
+#======================================================
+#PanXmlDOB = "01/05/2002"
+#AadhaarXmlDOB = "01/05/2002"
+#GivenDOB = "01/05/2002"
+
+#=======================================================

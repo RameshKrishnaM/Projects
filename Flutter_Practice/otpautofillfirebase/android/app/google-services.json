@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65701061593",
+    "project_id": "otpautofill-53fc1",
+    "storage_bucket": "otpautofill-53fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65701061593:android:fc829abdc673ca27e52fc8",
+        "android_client_info": {
+          "package_name": "com.example.otpautofillfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK9jOhxCOyiVqbiwcYB-W86fSqaBjZ5gE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

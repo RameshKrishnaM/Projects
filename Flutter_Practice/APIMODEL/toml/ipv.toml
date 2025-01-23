@@ -1,0 +1,63 @@
+CreateURL = "https://ext.digio.in:444/client/kyc/v2/request"
+
+FileDataUrl="https://ext.digio.in:444/client/kyc/v2/"
+
+Download_URL="https://ext.digio.in:444/client/kyc/v2/media/"
+
+DigiioFilePath="D:\\ekycTest\\attachments\\"
+Secret_Key = "AIYAOP8XHN623JSUJE8H71LQEBJ9S9FI"
+Secret_Value = "VHZENZKCT2G4TG7NXKAIM7GS55ALKY3N"
+
+GeoUrl = "https://api.bigdatacloud.net/data/reverse-geocode-client?"
+
+TemplateCode="KYC_IPV"
+
+IpvVideoLength="11"
+lIpvExpiryDays="1"
+
+ReGenTokenURL="https://ext.digio.in:444/user/auth/generate_token"
+
+## Add Digio Wet Signature request
+Wet_Sign_Flag="N"
+
+
+########################
+# Digio Request config
+########################
+#video
+	Video_Type = "video"
+	Video_Title = "Video KYC"
+	Video_Description = "Read the below OTP clearly for 11 seconds in front of camera while recording and submit."
+	Video_Method = "otp_audio"
+	Video_FaceMatchObjType = "match_required"
+	Video_ActionType = "digi_video"
+	Video_ValidationMode = "OTP_STRICT"
+	VideoSub_Type = "ASSISTANCE_INSTRUCTION"
+	VideoSub_Title = "Video Instruction"
+	VideoSub_Description = "Please capture your clear and complete face"
+#Selfie
+	Selfie_Type = "selfie"
+	Selfie_Title = "SELFIE KYC"
+	Selfie_Description = "Please take a SELFIE to authenticate"
+	Selfie_ValidationMode = "LIVENESS_CHECK"
+	Selfie_FaceMatchObjType = "SOURCE"
+	Selfie_ActionType = "digi_selfie"
+	SelfieSub_FaceMateSource = "source"
+
+#Sign
+	Sign_Type = "image"
+	Sign_Title = "Wet Signature"
+	Sign_Description = "Please do sign"
+	Sign_UploadMode = "IMAGE_OR_DRAW"
+	Sign_ValidationType = "signature"
+	Sign_ActionType = "digi_Sign"
+# location
+	Location_Type = "GEO_TAGGING"
+##################
+
+# Generate Ipv link ExpiryDays
+## Example Format ##
+# 00:10  
+# 24:00  
+
+IPVLinkExpTime="01:00"

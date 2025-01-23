@@ -1,0 +1,51 @@
+# CVLKRA KRATemplate Config 
+
+KRATemplateDocId="24112"
+
+# CVLKRA PDF Logo Image Config 
+Logo_Width="150"
+Logo_Height="20"
+Logo_DX="-50"
+Logo_DY="-75"
+Logo_Scale=0.2
+Logo_DocID="23950"
+Logo_Imagepos="tr"
+Logo_PageNo="1"
+
+# CVLKRA PDF UserImg Image Config 
+UserImg_Width="400"
+UserImg_Height="400"
+UserImg_DX="-50"
+UserImg_DY="100"
+UserImg_Scale=0.15
+UserImg_Imagepos="r"
+UserImg_PageNo="1"
+
+# CVLKRA PDF UserSign1 Image Config 
+UserSign1_Width="200"
+UserSign1_Height="100"
+UserSign1_DX="-60"
+UserSign1_DY="35"
+UserSign1_Scale=0.12
+UserSign1_Imagepos="r"
+UserSign1_PageNo="1"
+
+# CVLKRA PDF UserSign2 Image Config 
+UserSign2_Width="100"
+UserSign2_Height="70"
+UserSign2_DX="-50"
+UserSign2_DY="-120"
+UserSign2_Scale=0.2
+UserSign2_Imagepos="r"
+UserSign2_PageNo="2"
+
+# CVLKRA PDF IpvEmpSign Image Config 
+IpvEmpSign_Width="100"
+IpvEmpSign_Height="50"
+IpvEmpSign_DX="60"
+IpvEmpSign_DY="40"
+IpvEmpSign_Scale=0.2
+IpvEmpSign_DocID="23951"
+IpvEmpSign_Imagepos="bl"
+IpvEmpSign_PageNo="2"
+

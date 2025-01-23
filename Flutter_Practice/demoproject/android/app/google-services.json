@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "454339662971",
+    "firebase_url": "https://novo121krish-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "novo121krish",
+    "storage_bucket": "novo121krish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454339662971:android:1f9578c65c67553410bede",
+        "android_client_info": {
+          "package_name": "com.example.demoproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLhJ507XXM5GZRqUbYivl5KVI3QWW48rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454339662971:android:67a5c69929de118710bede",
+        "android_client_info": {
+          "package_name": "com.example.novo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLhJ507XXM5GZRqUbYivl5KVI3QWW48rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

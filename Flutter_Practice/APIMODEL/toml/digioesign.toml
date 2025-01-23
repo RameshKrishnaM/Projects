@@ -1,0 +1,28 @@
+
+############################ base_URL ############################## 
+base_url="https://ext.digio.in:444/v2/client/document/"
+
+#key&value
+
+Secret_Key = "AIYAOP8XHN623JSUJE8H71LQEBJ9S9FI"
+Secret_Value = "VHZENZKCT2G4TG7NXKAIM7GS55ALKY3N"
+
+############################ E-sign Request#########################
+request_url="uploadpdf"
+
+download_url="download?document_id="
+
+cancel_request_url="/cancel"
+
+ProcessType="instaKYC Onboarding"
+SignType="aadhaar"
+SignReason="Account opening"
+
+#################################### esign_type#####################################
+EsingType="DIGIIO"
+# EsingType="NSDL"
+
+
+# ==================== EXPIRY DATE COUNT ==================== 
+DigioExpiryDate=1
+# ===========================================================

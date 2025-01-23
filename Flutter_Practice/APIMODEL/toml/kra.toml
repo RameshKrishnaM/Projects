@@ -1,0 +1,66 @@
+KraURL = "http://192.168.2.5:28013/api/kraFullDetails"
+RefUrl = "http://192.168.2.5:28013/api/fetchBasicDetails"
+KraStatus = "http://192.168.2.5:28013/api/kraStatus"
+KRARefURL = "http://192.168.2.5:28013/api/fetchPanStatusDetails"
+GetKRAStatusDetails = "http://192.168.2.5:28013/api/fetchPanStatusDetails"
+KRAXMLColumnName = "Kra_XML_Id"
+AgencyColumnName = "KRA_agency_Name"
+KRARefIdColumnName = "KRA_Reference_Id"
+KRAErrorCodeColumnName = "KraStatusCode"
+KRAVerificationColumnName = "KraVerified"
+KRAUserNameColumnName = "Name_As_Per_KRA"
+KRAAppNoColumnName = "KRA_App_No"
+FullDetailsFlagColumnName = "FullDetailsFlag"
+Filetype = "KRA Address Proof"
+XmlFiletype = "KRA XML Proof"
+appname = "EKYC_OnBoarding"
+krastatus = "005"
+
+
+
+ValidateAppStatus = "VALIDATE_STATUS"
+OldAppStatus = "OLD_APP_STATUS"
+ModifyAppStatus = "UPDT_STATUS"
+
+AllowManualAddrEntry = "N"
+AllowModification="Y"
+
+#single file upload
+#Address
+
+PerManualAddress1 = "PER Manual Address Proof 1"
+PerManualAddress2 = "PER Manual Address Proof 2"
+CorManualAddress1 = "COR Manual Address Proof 1"
+CorManualAddress2 = "COR Manual Address Proof 2"
+
+PerAddr1Column = "Proof_Doc_Id1"
+PerAddr2Column = "Proof_Doc_Id2"
+CorAddr1Column = "Cor_Address_DocId1"
+CorAddr2Column = "Cor_Address_DocId2"
+
+#Proof upload
+
+IncomeProof = "Income_proof"
+BankProof = "Bank_proof"
+SignatureProof = "Signature"
+PanProof = "Pan_proof"
+
+BankProofColumn = "Bank_proof"
+IncomeProofColumn = "Income_proof"
+SignatureProofColumn = "Signature"
+PanProofColumn = "Pan_proof"
+IncomeProofTypeColumn = "Income_prooftype"
+
+#Personal Details
+GenderColumnName = "Gender"
+FatherNameColumnName = "Father_SpouceName"
+MaritalStatusColumnName = "Marital_Status"
+
+#Header code
+Gender = "Gender"
+MarritalStatus = "MarritalStatus"
+
+#Kra Mofified status coloum Name
+KRAModifiedStatusColoumName = "KraModifiedStatusCode"
+
+

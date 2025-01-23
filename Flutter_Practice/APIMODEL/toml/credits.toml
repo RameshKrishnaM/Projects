@@ -1,0 +1,27 @@
+#credits
+
+CreditsLogFlag = "Y"
+
+DigoEsgnVndr = "Digio"
+DigoEsgnSrv = "eSign"
+
+DigioEstmpVndr = "Digio"
+DigioEstmpSrv = "eStamping"
+
+NSDLEsgnVndr = "NSDL"
+NSDLEsgnSrv = "eSign"
+
+RzrPayPDVndr = "RazorPay"
+RzrPayPDSrv = "PennyDrop (in ₹)"
+
+CDSLBOIDVndr = "CDSL"
+CDSLBOIDSrv = "BO ID"
+
+Source = "Insta-Kyc"
+OutwardTrnx = "Outward"
+InwardTrnx = "Inward"
+
+
+
+
+

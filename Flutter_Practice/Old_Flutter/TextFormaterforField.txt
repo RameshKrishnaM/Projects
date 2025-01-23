@@ -1,0 +1,105 @@
+ // for creating mobile textformat first digit 6- 9
+                                  /*  inputFormatters: [
+                                      FilteringTextInputFormatter.digitsOnly,
+                                      LengthLimitingTextInputFormatter(10),
+                                      TextInputFormatter.withFunction(
+                                        (oldValue, newValue) {
+                                          return newValue.text.isEmpty ||
+                                                  RegExp(r'^[6-9]$').hasMatch(
+                                                      newValue.text[0])
+                                              ? newValue
+                                              : oldValue;
+                                        },
+                                      ),
+                                    ], */
+
+                                  // for creating IFSC text Format
+                                  /* inputFormatters: [
+                                      TextInputFormatter.withFunction(
+                                        (oldValue, newValue) {
+                                          final newText =
+                                              newValue.text.toUpperCase();
+
+                                          if (newText.length <= 11) {
+                                            String formattedText = '';
+                                            for (int i = 0;
+                                                i < newText.length;
+                                                i++) {
+                                              if (i < 4) {
+                                                // First 4 characters: Allow only letters
+                                                if (RegExp(r'[A-Z]')
+                                                    .hasMatch(newText[i])) {
+                                                  formattedText += newText[i];
+                                                }
+                                              } else if (i == 4) {
+                                                // 5th character: Allow only '0'
+                                                if (newText[i] == '0') {
+                                                  formattedText += newText[i];
+                                                }
+                                              } else {
+                                                // Last 6 characters: Allow only numbers
+                                                if (RegExp(r'[0-9]')
+                                                    .hasMatch(newText[i])) {
+                                                  formattedText += newText[i];
+                                                }
+                                              }
+                                            }
+                                            return TextEditingValue(
+                                              text: formattedText,
+                                              selection:
+                                                  TextSelection.collapsed(
+                                                      offset:
+                                                          formattedText.length),
+                                            );
+                                          } else {
+                                            return oldValue; // Don't allow more than 11 characters
+                                          }
+                                        },
+                                      ),
+                                    ], */
+
+                                  //for creating PanCard text Format
+
+                                  /* inputFormatters: [
+                                      TextInputFormatter.withFunction(
+                                          (oldValue, newValue) {
+                                        final newText =
+                                            newValue.text.toUpperCase();
+
+                                        if (newText.length <= 10) {
+                                          String formattedText = '';
+                                          for (int i = 0;
+                                              i < newText.length;
+                                              i++) {
+                                            if (i < 5) {
+                                              // First 5 characters: Allow only letters
+                                              if (RegExp(r'[A-Z]')
+                                                  .hasMatch(newText[i])) {
+                                                formattedText += newText[i];
+                                              }
+                                            } else if (i < 9) {
+                                              // Next 4 characters: Allow only digits
+                                              if (RegExp(r'[0-9]')
+                                                  .hasMatch(newText[i])) {
+                                                formattedText += newText[i];
+                                              }
+                                            } else {
+                                              // Last character: Allow only a letter
+                                              if (RegExp(r'[A-Z]')
+                                                  .hasMatch(newText[i])) {
+                                                formattedText += newText[i];
+                                              }
+                                            }
+                                          }
+                                          return TextEditingValue(
+                                            text: formattedText,
+                                            selection: TextSelection.collapsed(
+                                                offset: formattedText.length),
+                                          );
+                                        } else {
+                                          return oldValue; // Don't allow more than 10 characters
+                                        }
+                                      }),
+                                    ], */
+
+                                  //---------------------------------------------
