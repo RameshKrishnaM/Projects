@@ -1,0 +1,37 @@
+# filename: pennydropconfig.toml
+
+PennyDropCount = "3"
+ValidateAccNo       = "4564569253544368"
+ValidateAmt         = 100
+ValidateCurrency    = "INR"
+HeaderAuthoKey      = "Basic cnpwX2xpdmVfV3Z2TDJwbENzVTFwdFo6UndvQ09pazIxdnJqOTdiTGZtQXF2cnlJ"
+
+
+# ======================================================================================= 
+#                                     LOCAL
+# ======================================================================================= 
+
+
+#ContactURL = "http://192.168.70.52:28029/createContact"
+#FundURL = "http://192.168.70.52:28029/createFundAccount"
+#ValidateURL = "http://192.168.70.52:28029/validateBankAccount"
+#ValidateStatusUrl = "http://192.168.70.52:28029/getValidationStatus"
+
+
+# ======================================================================================= 
+#                                     UAT
+# =======================================================================================
+
+#ContactURL = "https://razorpaysrvuat.flattrade.in/createContact"
+#FundURL = "https://razorpaysrvuat.flattrade.in/createFundAccount"
+#ValidateURL = "https://razorpaysrvuat.flattrade.in/validateBankAccount"
+#ValidateStatusUrl = "https://razorpaysrvuat.flattrade.in/getValidationStatus"
+
+# ======================================================================================= 
+#                                     PROD
+# =======================================================================================
+
+ContactURL = "https://razorpaysrv.flattrade.in/createContact"
+FundURL = "https://razorpaysrv.flattrade.in/createFundAccount"
+ValidateURL = "https://razorpaysrv.flattrade.in/validateBankAccount"
+ValidateStatusUrl = "https://razorpaysrv.flattrade.in/getValidationStatus"

@@ -1,0 +1,23 @@
+
+
+BaseUrl="https://digilocker.flattrade.in"
+###########RedirectUrl###########
+RedirectUrl="/api/redirecturl"
+webAppName="EKYCDEV"
+mobileAppName="EKYCMOB"
+webPanAppName = "KYCPANDEV"
+###########GetInformation###########
+DigilockerInfoUrl="/api/digiinfo"
+
+
+PanProofColumnName = "Pan_proof"
+DigilockerXMLColumnName = "Digilocker_XML_Id"
+DigilockerColName="Digilockerreferenceid"
+PanXmlColumnName = "Pan_Xml_Id"
+
+Filetype = "Digilocker Address proof"
+XmlFiletype = "Digilocker Xml proof"
+PanFiletype = "Digilocker Pan proof"
+PanXmltype = "Pan Xml Proof"
+
+

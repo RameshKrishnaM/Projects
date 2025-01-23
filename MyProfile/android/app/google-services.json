@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598395567919",
+    "project_id": "novo-app-flattrade",
+    "storage_bucket": "novo-app-flattrade.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598395567919:android:94f9cc9a055fb0a0702bda",
+        "android_client_info": {
+          "package_name": "com.novo.novoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDM04UIi73psmxXX_nxjZxnxwNn3hvyME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

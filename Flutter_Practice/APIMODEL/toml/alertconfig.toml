@@ -1,0 +1,17 @@
+
+# ErrorCode = "Too Many Connection"
+EndPoint = "Database"
+ToomanyRecAlertContent = "Too many active database connections. Please check and retry..."
+
+TooManyConn = "EKYCPRODMAIL"
+
+
+ToomanyDBConnAlertSub = "Too Many Connection Alert from flow"
+ToomanyDBConnAlertHeader = "TOO MANY DB CONNECTION ALERT"
+ToomanyDBConnAlertContent = "Too many active database connections on "
+ToomanyDBConnAlertContent1 = "Please check and solve it as soon as possible"
+
+ToMail="logeshkumar.p@fcsonline.co.in,sowmiya.l@fcsonline.co.in,vijay.r@fcsonline.co.in"
+DbMaxOpenConns=50
+FromDSPName="InstaKYC Alert"
+

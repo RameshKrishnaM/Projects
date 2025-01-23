@@ -1,0 +1,32 @@
+# filename: kycintegrationconfig.toml
+
+CompanyName       = "M/s. Fortune Capital Services Private Limited"
+CompanyAddress    = "Kochar Technology Park, 6th Floor, SP 31-A, 1st Cross Road, Ambattur Industrial Estate, Ambattur, Chennai - 600 058."
+BankParticular    = "Bank:true"
+BankAddOrModify   = "Addition:true~Modification:false"
+BankReason        = "Bank Addition / Modification"
+NomineeReason     = "Nominee Addition / Modification"
+BankAckSubject       = "Acknowledgement of Bank Addition/Modification Request"
+EmailAckSubject      = "Acknowledgement of Email Id Modification Request"
+MobileAckSubject     = "Acknowledgement of Mobile Number Modification Request"
+IncomeAckSubject     = "Acknowledgement of Income Range Modification Request"
+
+BankCmptSubject       = "Bank Addition/Modification Request - Completed"
+EmailCmptSubject      = "Email ID Modification Request - Completed"
+MobileCmptSubject     = "Mobile Number Modification Request - Completed"
+IncomeCmptSubject = "Income Range Modification Request - Completed"
+
+BankRejSubject       = "Bank Addition/Modification Request - Rejected"
+EmailRejSubject      = "Email ID Modification Request - Rejected"
+MobileRejSubject     = "Mobile Number Modification Request - Rejected"
+OtpSubject        = "OTP Generated"
+IncomeRejSubject = "Income Range Modification Request - Rejected"
+
+AdminSubject      = "ERROR: Issue in API calls"
+
+EsignXmlProcessType   = "ESIGN XML"
+EsignStampProcessType = "ESIGN STAMP"
+
+EsignReason = "EKYC ADDITION"
+EsignXMLReason = "ESIGN STAMP"
+ESIGNProcessType = "Ekyc Onboarding"

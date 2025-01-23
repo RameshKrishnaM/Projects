@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "805956353454",
+    "project_id": "instakyc-96517",
+    "storage_bucket": "instakyc-96517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805956353454:android:493c64ecbce7fcfd319c3f",
+        "android_client_info": {
+          "package_name": "com.flattrade.ekyc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmFMPQiWbVFW_aCvGGZIQK-bb2SdmlTDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

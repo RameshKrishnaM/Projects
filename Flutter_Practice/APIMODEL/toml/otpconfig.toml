@@ -1,0 +1,56 @@
+# filename:OTPconfig.toml
+
+#ClientID
+ClientID="EKYC"
+#Process
+Process="EKYC"
+#OTP count
+Count ="10"
+
+#Email
+Emailparth="./html/otpEmail.html"
+EmailSubject="Signup Email verification"
+
+# mobile
+MobileParth="ZCHAT_OTP_VERIFICATION"
+
+#smsReason
+SentFrom ="KYC"
+
+
+#AdminAlert
+To ="saravanan.s@fsconline.co.in"
+AdminAlertHtmlPath ="./html/AdminAlert.html"
+AdminAlertSms="REKYC_ADMIN_ALT"
+AdminSubject ="OTP SEND PROBLEM"
+SendTo="9080921942"
+
+
+
+#SMS
+SmsUserName    = "fortunexmltrn"
+SmsPassword    = "o|Y.!5aI7@"
+SmsTokenLink   = "https://api.myvfirst.com/psms/api/messages/token?action=generate"
+SmsAPILink     = "https://api.myvfirst.com/psms/servlet/psms.JsonEservice"
+SmsMsgVersion  = "1.2"
+SmsSender      = "FCSLTD"
+SmsToken       = "SmsToken"
+
+
+# EMAIL
+#Account     = "AKIA4F42KEYBUUXTJN4W"
+#Pwd         = "BMmcqXw7qNrZqalHdkEbaRiFwvi4WtLs1DoxQ4U4dVaI"
+#From        = "Flattrade <info-noreply@mailer.flattrade.in>" 
+#FromRaw     = "info-noreply@mailer.flattrade.in"
+#ReplyTo     = "support@flattrade.in"
+#Subject    = "OTP Generated"
+#Url         = "email-smtp.ap-south-1.amazonaws.com:587"
+
+
+From        = "Flattrade <ftcsmtp@gmail.com>" 
+FromRaw     = "ftcsmtp@gmail.com"
+ReplyTo     = "support@flattrade.in"
+Subject    = "OTP Generated"
+
+
+AppLink="https://onelink.to/flattradeapp"

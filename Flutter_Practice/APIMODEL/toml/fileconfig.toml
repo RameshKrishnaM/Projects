@@ -1,0 +1,33 @@
+#Path = "D:\\pub\\KYC_UploadedFiles"
+Path = "D:\\ekycTest\\attachments"
+pdfpath="D:\\ekycTest\\attachments"
+
+baseUrl="http://192.168.2.5:28010/"
+#baseUrl="http://localhost:28010/"
+PDFGenerateUrl="api/PDFGenerate"
+savefile="api/SaveFile"
+PDFProcessType="ekyctemplate"
+PDFProcessType1="CDSL_KYC_Form"
+PDFProcessType2="ekyctemplatepart2"
+PDFProcessType3="salary_slip_3month"
+PDFDBname=""
+ReadFile="api/GetFile"
+GetPageCount="api/GetPageCount"
+SetPwdFile="api/LockPdfFile"
+MergePDF="api/Merge"
+MergeFileToPDF="api/mrgFileToPdf"
+SaveZipFile="api/CreatePwdZip"
+SavePDFpasswordFile="api/SavePwdFile"
+ApplicationNo="TEST000001"
+ClientID="TEST00001"
+FillPDFFile="api/FillablePDFCreation"
+PDFGrid="api/PdfGrid"
+
+PRODbaseUrl="http://fileservice.flattrade.in:28010/"
+
+####################################### not-ignore request #################################
+bodyContentType="Text,JavaScript,JSON,HTML,XML"
+
+BlankPANProofRequired="BlankPANProofRequired"
+BlankProofDocId="BlankProofDocId"
+PanProofRequired="PanProofRequired"

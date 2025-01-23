@@ -1,0 +1,18 @@
+
+FromEmail="FCS_263_fromEmail"
+FromDspName="FCS_263_fromDspName"
+MgrGrpEmail="FCS_263_toEmail" 
+EmailServer="FCS_263_emailServer"
+ReplyTo="FCS_263_replyTo"
+EmailSubject="FCS_263_EmailSubject"
+CreatedProgramNo="263"
+CreatedProgramName="Insta KYC API"
+
+
+startHr="FCS_263_startHr"
+endHr="FCS_263_endHr"
+
+OTPSubject="FCS_263_OTPSubject"
+IPVSubject="FCS_263_IPVSubject"
+FormCompleteSubject="FCS_263_FormCompleteSubject"
+RejectSubject="FCS_263_RejectSubject"

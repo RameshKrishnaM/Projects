@@ -1,0 +1,11 @@
+# filename: config.toml
+
+ClosurePDFAPI           = "http://192.168.2.5:25025/PDFService.svc/Generate_CloserKYC_PDF"  
+BankAdditionPDFAPI      = "http://192.168.2.5:25025/PDFService.svc/GenerateBankAdditionPDF"  
+NomineePDFAPI           = "http://192.168.2.5:25025/PDFService.svc/Generate_NomineeKYC_PDF"  
+EsignRequestAPI         = "http://192.168.2.5:25025/ESignService.svc/GenerateEsignRequest"  
+EsignDocumentAPI        = "http://192.168.2.5:25025/ESignService.svc/GenerateStampDocument"
+
+
+# localRedirectURL  ="http://localhost:28094/sign/getEsign"
+# serverRedirectURL="http://localhost:29091/sign/getEsign"

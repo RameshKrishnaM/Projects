@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "74900399377",
+    "firebase_url": "https://analytics-47024-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "analytics-47024",
+    "storage_bucket": "analytics-47024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74900399377:android:5877ccb6742ef053cb18b0",
+        "android_client_info": {
+          "package_name": "com.flattrade.analytics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUWqIOkekX0WGY8wY-LysB23BPPlsgqaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

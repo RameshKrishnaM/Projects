@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423560250861",
+    "project_id": "fireb-ab820",
+    "storage_bucket": "fireb-ab820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423560250861:android:36a2f1eabde69eb67313e4",
+        "android_client_info": {
+          "package_name": "com.example.fireb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh9nHSSMnt9-mYytHRBRvYzuucTLXwA2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

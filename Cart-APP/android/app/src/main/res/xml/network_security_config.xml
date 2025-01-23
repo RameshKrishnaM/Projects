@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+     <domain includeSubdomains="true">onelink.to</domain>
+     <domain includeSubdomains="true">esign.egov-nsdl.com/</domain>
+        <domain includeSubdomains="true">uatekyc101.flattrade.in</domain>
+       
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,5 @@
+2025/01/22 11:45:11 FCS_263_InstaKYC_API Server Started in :28595 ...
+2025/01/22 11:45:11 MARIAEKYCPRD >> Open connections: 0, In use: 0, Idle: 0, Wait count: 0, Wait duration: 0s
+2025/01/22 11:45:11 MARIAFTPRD >> Open connections: 0, In use: 0, Idle: 0, Wait count: 0, Wait duration: 0s
+2025/01/22 11:45:11 NKYCDB >> Open connections: 0, In use: 0, Idle: 0, Wait count: 0, Wait duration: 0s
+2025/01/22 11:45:11 listen tcp :28595: bind: address already in use

@@ -1,0 +1,179 @@
+<html>
+
+<head>
+  <title>Admin Alert</title>
+  <style>
+    .oddrow {
+      background-color: #eeeeee;
+    }
+
+    .evenrow {
+      background-color: #ffffff;
+    }
+
+    .grandtotal {
+      background-color: #98d7d1;
+    }
+  </style>
+</head>
+
+<body style="background-color: #edf7f6">
+  <center>
+    <table width="600" cellpadding="0" cellspacing="0" style="min-width: 600px; background-color: #ffffff">
+      <tr>
+        <td style="
+              padding: 10px;
+              background-color: #0965da;
+              color: white;
+              text-align: center;
+              font-family: 'arial';
+            ">
+          <b>{{.Header}}</b>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 15px">
+          <table cellpadding="0" cellspacing="0" style="padding: 20px">
+            <tr>
+              <td>
+                <p style="
+                      text-align: left;
+                      font-family: 'arial';
+                      font-size: 13px;
+                      line-height: 20px;
+                      line-height: 30px;
+                    ">
+                  Hi Team,<br />
+                  {{.Content}}
+                  <br />
+                </p>
+                {{if gt (len .CDSLRejectAlert) 0}}
+                <table class="pt-5" cellpadding="0" cellspacing="0" align="center"
+                  style="border: 1px solid rgb(218, 216, 216); width: 100%">
+                  <thead>
+                    <tr style="background-color: #0965da">
+                      <th scope="col" style="
+                            color: #ffffff;
+                            padding: 5px;
+                            font-family: 'arial';
+                            font-size: 13px;
+                            line-height: 20px;
+                            line-height: 30px;
+                            text-align: center;
+                          ">
+                        S.No
+                      </th>
+                      <th scope="col" style="
+                            color: #ffffff;
+                            padding: 5px;
+                            font-family: 'arial';
+                            font-size: 13px;
+                            line-height: 20px;
+                            line-height: 30px;
+                            text-align: center;
+                          ">
+                        CLIENT ID
+                      </th>
+
+                      <th scope="col" style="
+                            color: #ffffff;
+                            padding: 5px;
+                            font-family: 'arial';
+                            font-size: 13px;
+                            line-height: 20px;
+                            line-height: 30px;
+                            text-align: center;
+                          ">
+                        RESPONSE
+                      </th>
+                      <th scope="col" style="
+                          color: #ffffff;
+                          padding: 5px;
+                          font-family: 'arial';
+                          font-size: 13px;
+                          line-height: 20px;
+                          line-height: 30px;
+                          text-align: center;
+                        ">
+                        ERROR MSG
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{range .CDSLRejectAlert}}
+                    <tr>
+                      <td valign="top" align="center" style="
+                            border: 1px solid rgb(218, 216, 216);
+                            padding: 5px;
+                            font-size: 13px;
+                            line-height: 20px;
+                            font-family: 'arial';
+                          ">
+                        {{.Sno}}
+                      </td>
+
+                      <td valign="top" align="center" style="
+                            border: 1px solid rgb(218, 216, 216);
+                            padding: 5px;
+                            font-size: 13px;
+                            line-height: 20px;
+                            font-family: 'arial';
+                          ">
+                        {{ .ClientId }}
+                      </td>
+
+                      <td valign="top" align="center" style="
+                            border: 1px solid rgb(218, 216, 216);
+                            padding: 5px;
+                            font-size: 13px;
+                            line-height: 20px;
+                            font-family: 'arial';
+                          ">
+                        {{ .Response }}
+                      </td>
+                      <td valign="top" align="center" style="
+                          border: 1px solid rgb(218, 216, 216);
+                          padding: 5px;
+                          font-size: 13px;
+                          line-height: 20px;
+                          font-family: 'arial';
+                        ">
+                        {{ .RejectReason }}
+                      </td>
+                    </tr>
+                    {{end}}
+                  </tbody>
+                </table>
+                {{end}}
+
+                <p style="
+                      text-align: left;
+                      font-family: 'arial';
+                      font-size: 13px;
+                      line-height: 18px;
+                    ">
+                  <br />Thanks,<br />
+                  AutoBot.<br /><br />
+                  <span style="font-size: 12px; text-align: center">Please Note: This is a system generated report.
+                    Do not reply to this email.</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr style="
+            text-align: center;
+            font-family: 'arial';
+            font-size: 10px;
+            line-height: 20px;
+            background-color: #edf7f6;
+            padding: 10px;
+          ">
+        <td>AutoBot is an Ai engine developed by Fortune Tech</td>
+      </tr>
+    </table>
+  </center>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+#backoffice check
+
+BackOfficeUrl="http://192.168.150.21:29091/query"
+panKey="PANEXST"
+mobileId="29"
+emailId="30"
+type="v"

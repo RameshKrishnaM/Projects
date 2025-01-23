@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">768909238295865</string>
+    <string name="app_name">"KYCAPP"</string>
+    <string name="facebook_client_token"> ad84a3c78b41625ffe11f8ea65f05dcc</string>
+    <!--     1542863313158426      app id    KYCAPP    app name        2d84af7cf57fd6488e7a97a3f204ba21   token   demo -->
+    <!--     768909238295865      app id    KYCAPP    app name        ad84a3c78b41625ffe11f8ea65f05dcc   token   live -->
+</resources>
