@@ -50,7 +50,7 @@ void main() async {
 
   firebaseInitialSetup();
   FirebaseMessaging.onMessageOpenedApp.listen((event) {
-    print('App Open Listener message');
+    print('App Open Listener message In KYC');
     // navigateToNotificationScreen(message.data['route'] ?? '');
     // navigatorKey.currentState!.push(MaterialPageRoute(
     //   builder: (context) {
